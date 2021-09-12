@@ -10,8 +10,22 @@
   </head>
 
   <body>
-    <header>ヘッダー</header>
-    <%= yield %>
-    <footer>フッター</footer>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          Rails Sample App
+        </a>
+      </div>
+    </nav>
+    <section class="main section">
+      <div class="container">
+        <%= yield %>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p><a href="https://github.com/kecbigmt/rails-sample-app" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+      </div>
+    </footer>
   </body>
 </html>
