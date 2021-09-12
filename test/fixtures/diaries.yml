@@ -4,8 +4,16 @@ one:
   id: 1
   title: 今日は終日休暇
   body: 今日は仕事を休んで、公園で読書を楽しんだ。
+  user_id: 1
 
 two:
   id: 2
   title: 今日の天気
   body: 今日は雨が降った後、虹が出ていて綺麗だった
+  user_id: 1
+
+three:
+  id: 3
+  title: 吾輩は
+  body: 猫である。名前はまだない
+  user_id: 2
